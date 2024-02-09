@@ -1,0 +1,16 @@
+# absl CMake configuration file.
+
+include(CMakeFindDependencyMacro)
+if(__COMPILER_PS5)
+  set(Threads_FOUND ON)
+  set(CMAKE_USE_PTHREADS_INIT 1)
+  add_library(Threads::Threads INTERFACE IMPORTED)
+  set_property(TARGET Threads::Threads
+                 PROPERTY INTERFACE_LINK_LIBRARIES "libScePosix_stub_weak.a")
+else()
+  find_dependency(Threads)
+endif()
+
+@PACKAGE_INIT@
+
+include ("${CMAKE_CURRENT_LIST_DIR}/@PROJECT_NAME@Targets.cmake")
