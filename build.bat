@@ -38,7 +38,7 @@ cmake --build . --target INSTALL --config Release --parallel
 
 
 
-pause
+
 
 
 echo "Build Protobuf"

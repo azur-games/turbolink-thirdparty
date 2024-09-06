@@ -30,7 +30,6 @@ cmake -G "Ninja Multi-Config" -DCMAKE_MAKE_PROGRAM=%NINJA_EXE_PATH% ^
 cmake --build . --target install --config Debug
 cmake --build . --target install --config Release
 
-pause
 
 
 echo "Build Re"
@@ -52,7 +51,7 @@ cmake -G "Ninja Multi-Config" -DCMAKE_MAKE_PROGRAM=%NINJA_EXE_PATH% ^
 cmake --build . --target install --config Debug --parallel
 cmake --build . --target install --config Release --parallel
 
-pause
+
 
 echo "Build Protobuf"
 
@@ -76,7 +75,7 @@ cmake -G "Ninja Multi-Config" -DCMAKE_MAKE_PROGRAM=%NINJA_EXE_PATH% ^
 cmake --build . --target install --config Debug
 cmake --build . --target install --config Release
 
-pause
+
 
 echo "Build gRCP"
 

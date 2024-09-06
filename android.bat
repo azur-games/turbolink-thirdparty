@@ -24,7 +24,7 @@ mkdir arm64-v8a
 
 echo PRESS ENTER
 
-PAUSE
+
 
 mkdir %TL_LIBRARIES_PATH%\_build\android\re2 & cd %TL_LIBRARIES_PATH%\_build\android\re2
 
@@ -46,7 +46,7 @@ mkdir %TL_LIBRARIES_PATH%\_build\android\re2 & cd %TL_LIBRARIES_PATH%\_build\and
 
 echo PRESS ENTER
 
-PAUSE
+
 
 mkdir %TL_LIBRARIES_PATH%\_build\android\protobuf & cd %TL_LIBRARIES_PATH%\_build\android\protobuf
 
@@ -69,7 +69,7 @@ mkdir %TL_LIBRARIES_PATH%\_build\android\protobuf & cd %TL_LIBRARIES_PATH%\_buil
  
  echo PRESS ENTER
 
-PAUSE
+
  
  mkdir %TL_LIBRARIES_PATH%\_build\android\grpc & cd %TL_LIBRARIES_PATH%\_build\android\grpc
 
